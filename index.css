@@ -19,7 +19,6 @@
     width: 260px;
     height: 260px;
     margin-bottom: 20px;
-    transition:.5s;
     cursor: pointer;
   }
 
@@ -46,10 +45,9 @@
   .gallery-image {
     width: 130px;
     height: 130px;
-    margin-bottom: 20px;
-    transition: .5s;
-    
+    margin-bottom: 20px;  
   }
+
   .modal{
     position: fixed;
     inset: 0;
@@ -110,15 +108,15 @@
     cursor: default;
     overflow: hidden;
   }
+
   .slider-wrapper{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 30px;
     width: 780px;
-    transition: .3s;
-
   }
+
   .slider-item img{
     width: 780px;
     height: 780px;
@@ -147,6 +145,7 @@
     background-color: transparent;
     cursor: pointer;
   }
+
   .slider-right{
     position: absolute;
     top: 50%;
@@ -155,14 +154,14 @@
     background-color: transparent;
     cursor: pointer;
   }
+
   .slider-left img{
     height: 35px;
     width: 35px;
   }
+
   .slider-right img{
     height: 35px;
     width: 35px;
   }
-  .slider-close:focus-visible{
-    outline-color: black;
-  }
+
